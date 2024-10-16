@@ -1,0 +1,10 @@
+.user-message{
+    left: 0;
+    top: 0;
+}
+
+.bot-message{
+    position: relative;
+    top: 0;
+    right: 0;
+}

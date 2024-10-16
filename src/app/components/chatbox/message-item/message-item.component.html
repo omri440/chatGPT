@@ -1,0 +1,5 @@
+
+<label for="message"  style="color: black;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{{isUserMessage ? "You" : "chatGPT"}}</label>
+  <mat-card appearance="outlined" class="message" [ngClass]="{ 'user-message': isUserMessage, 'bot-message': !isUserMessage }">
+    <mat-card-content>{{ message.text }}</mat-card-content>
+  </mat-card>

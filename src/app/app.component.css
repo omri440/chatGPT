@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+app-main-card {
+  position: relative;
+  width: 100%; /* Take full width of parent */
+  max-width: 600px; /* Set a max width to simulate a chat box */
+  bottom: 12.5%;
+  height: 100%; /* Adjust height to simulate the chat box height */
+  max-height: 700px;
+  background-color: white; /* Optional: chat box background */
+  border-radius: 10px; /* Optional: add some rounding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  padding: 20px; /* Optional: some padding */
+}

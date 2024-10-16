@@ -1,0 +1,20 @@
+.chat-card {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-card-header {
+    background-color: #f8f8f8;
+  }
+  
+  mat-card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  mat-card-subtitle {
+    font-size: 16px;
+    color: #6c757d;
+  }

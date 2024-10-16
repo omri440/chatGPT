@@ -1,0 +1,42 @@
+.message-input-field {
+  width: 80%;
+  margin-right: 10px;
+}
+
+.message-form {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+
+.message-form .send-button {
+  width: 18%;
+  margin-left: 10px;
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.message-form .send-button:hover  {
+  background-color: #007bff;
+  color: white;
+}
+.mat-form-field-wrapper {
+  padding: 0;
+}
+
+.mat-hint {
+  color: #6c757d;
+}
+
+.mat-stroked-button {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.mat-stroked-button:hover {
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,16 @@
+<mat-grid-list cols="1" rowHeight="2:1">
+    <mat-grid-tile class="chat-window">
+    @if (messages$) {
+        <div class="chat-container">
+            <div *ngFor="let message of messages$ | async" class="message-container">
+                <app-message-item [message]="message"></app-message-item>
+            </div>
+        </div>
+    }
+    </mat-grid-tile>
+    <mat-grid-tile class="message-input-tile">
+        <div class="message-input-container">
+        <app-message-input></app-message-input>
+    </div>
+    </mat-grid-tile>
+</mat-grid-list>
