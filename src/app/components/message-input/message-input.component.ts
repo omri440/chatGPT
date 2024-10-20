@@ -24,14 +24,12 @@ onUserSendMessage() {
     this.messageService.addMessage({ text: this.userMessage, sender: 'user' });
     console.log(this.userMessage)
 
-    this.chatService.sendMessage(this.userMessage).subscribe(response => {
-      // 3. Add backend response to UI
-      this.messageService.addMessage({ text: response.message, sender: 'bot' });
-    });
-
     // 4. Clear input field
     this.userMessage = '';
   }
+}
+onUserClearChatBox():void{
+  this.messageService.clearMessages()
 }
 }
 

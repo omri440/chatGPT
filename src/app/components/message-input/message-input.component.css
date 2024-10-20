@@ -18,9 +18,20 @@
   border-color: #007bff;
   color: #007bff;
 }
+.message-form .clear-button{
+  width: 18%;
+  margin-left: 10px;
+  border-color: #ff2f00;
+  color: #ff2200;
+}
 
 .message-form .send-button:hover  {
   background-color: #007bff;
+  color: white;
+}
+
+.message-form .clear-button:hover  {
+  background-color: #ff1900;
   color: white;
 }
 .mat-form-field-wrapper {
